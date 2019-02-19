@@ -1,0 +1,27 @@
+#include <iostream>
+#include "self_dividing_numbers.cpp"
+#include "reversing_word_2.cpp"
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{ // A self-dividing number is a number that is divisible by every digit it contains. Also, a self-dividing number is not allowed to contain the digit zero.
+//     int lower_bound_of_range, upper_bound_of_range;
+//    self_dividing_number range_of_numbers;
+//    cout << "Please give a lower bound: " <<endl;
+//    cin >> lower_bound_of_range;
+//    cout << "Please give an upper bound: " <<endl;
+//    cin >> upper_bound_of_range;
+//    vector<int> rozw;
+//    rozw=range_of_numbers.selfDividingNumbers(lower_bound_of_range,upper_bound_of_range);
+//    for (int i=0; i<rozw.size(); i++)
+//       cout << rozw[i] << " ";
+//
+string s, rozw;
+reversing_word reversed_s;
+cout << "Please give a string to reverse:";
+cin << s;
+rozw = reversed_s.reverseWords(s);
+
+    return 0;
+}
